@@ -1,0 +1,86 @@
+body {
+	background-image: url(../images/background.png);
+	background-repeat: repeat;
+}
+
+#header {
+	height: 50px;
+	width: 40%;
+	margin: 25px;
+	margin-bottom: 50px;
+}
+
+#header-text {
+	background-color: darkorange;
+	color: white;
+	margin: auto auto;
+	padding: 10px;
+}
+
+#textbox {
+	width: 60%;
+	margin: 25px;
+	margin-top: -25px;
+	margin-bottom: 25px;
+	background-color: peachpuff;
+	padding: 5px;
+}
+
+.textbox-text {
+	color: darkred;
+	padding: 5px;
+	margin: 0px; 
+}
+
+#number-win-container {
+	width: 45%;
+	height:50px;
+}
+
+#number-box {
+	width: 30%;
+	background-color: mediumseagreen;
+	margin-left:25px;
+	margin-right: 10px;
+	height: 50px;
+	float: left;
+}
+
+#wins-box {
+	width: 15%;
+	background-color: skyblue;
+	height: 50px;
+	float: left;
+}
+
+#crystals-box {
+	width: 50%;
+	margin: 25px;
+}
+
+.crystal-image {
+	width: 12.5%;
+}
+
+img { 
+   border:1px solid #021a40;
+}
+
+.total-score-header {
+	background-color: teal;
+	width: 30%;
+	margin-left:25px;
+}
+
+#total-score-box-text {
+	color: white;
+	padding: 5px;
+}
+
+.total-score-box {
+	background-color: teal;
+	width: 30%;
+	height: 50px;
+	margin:25px;
+}
+

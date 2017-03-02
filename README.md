@@ -1,2 +1,0 @@
-# CrystalsCollector
-CrystalsCollector 

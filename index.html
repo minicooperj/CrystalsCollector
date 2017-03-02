@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<!-- Latest compiled and minified CSS -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+ crossorigin="anonymous"> </script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<title></title>
+
+</head>
+<body>
+<div id="header">
+	<h1 id="header-text">CrystalsCollector!</h1>
+</div>
+
+<div id="textbox">
+	<p class="textbox-text">You will be given a random number at the start of the game</p>
+	<br>
+	<p class="textbox-text">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+	<br>
+	<p class="textbox-text">You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+	<br>
+	<p class="textbox-text">The value of each crystal is hidden from you until you click on it.</p>
+	<br>
+	<p class="textbox-text">Each time when the game starts, the game will change the values of each crystal.</p>
+</div>
+
+<div id="number-win-container">
+
+	<div id="number-box">	
+	</div>
+
+	<div id="wins-box">
+	<span id="wins-num">Wins: 0</span>
+	<br>
+	<span id="losses-num">Losses: 0</span>
+	</div>
+
+</div>
+
+<div id="crystals-box">
+	<img id="red-crystal" class="crystal-image" src="assets/images/redcrystal.jpg">
+	<img id="blue-crystal" class="crystal-image" src="assets/images/bluecrystal.jpg">
+	<img id="yellow-crystal" class="crystal-image" src="assets/images/yellowcrystal.jpg">
+	<img id="purple-crystal" class="crystal-image" src="assets/images/purplecrystal.jpg">
+</div>
+
+<div class="total-score-header">
+	<div id="total-score-box-text">Your total score is</div>
+</div>
+
+<div class="total-score-box">
+	<!-- Score HTML box goes here with correct class -->
+	
+</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
